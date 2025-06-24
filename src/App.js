@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Bed, Bath, Soup, Wind, ChevronLeft, ChevronRight, RotateCcw, CheckSquare, Square, Mail } from 'lucide-react';
+import { Bed, Bath, Soup, Wind, ChevronLeft, ChevronRight, RotateCcw, CheckSquare, Square, Mail } from 'lucide-react';
 
 // --- Configuration ---
 const roomNames = [
@@ -265,7 +265,7 @@ export default function App() {
   };
 
   const handleSendAndReset = () => {
-    let summary = "Hej,\n\nHär är en sammanfattning av dagens städuppgifter:\n\n";
+    let summary = "Hej,\n\nHär är en sammanfattning av dagens slutförda städuppgifter:\n\n";
     let tasksFound = false;
 
     // Process rooms
